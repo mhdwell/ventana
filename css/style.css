@@ -1,0 +1,397 @@
+* { 
+margin:0;
+padding:0;
+font-family: var(--f1);}
+:root{
+    --color1: #a4baea;
+    --color2: #145494;
+    --color3: #fff;
+    --color4: #c22;
+    --f1: 'Open Sans', sans-serif;
+    --f2:'Crimson Text', serif;
+}
+.container {
+    width: 660px;
+    height: 590px;
+    flex: auto;
+    flex-flow: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+@media (max-width:400px)
+{
+.container{
+    width: 100%;
+    font-size:.8rem ;
+    flex: auto;
+    flex-flow: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+	.middle {
+    background-image: url(../img/8.jpg);
+	opacity: .91;
+    position: absolute;
+    z-index: 4;
+width: 100%;
+}
+
+.lm {
+    height:60%;
+    z-index: 4;
+    position: relative;
+    top: 1%;
+    left:  2;
+    width: 100%;
+
+
+}
+.twitt {
+width: 100%;}
+
+	.Text {
+	background-color: rgba(44,22,77,.6);
+	color: aliceblue;
+	padding:0%;
+	
+	width: 100%;
+
+}
+	.fbacgkround {
+    width: 100%;
+    padding-right: 0%;
+}
+	.volteada {	
+	transition: all 2s ease-out;
+	overflow: hidden;
+	opacity: 0;
+    transform:translate(10vh,-2200px);
+}
+.d
+{	
+	transition: all 11s ease;
+	overflow: hidden;
+    transform:translate(10vh,-2200px);
+	opacity: 0;
+    
+    
+}
+
+}
+.frente{ 
+    position: absolute;
+    z-index: 5;
+    background-image: url(../img/djpg.jpg);
+
+}
+
+
+
+
+
+.head-button {
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    z-index: 9;
+	padding: 4px;
+	background-image: url(../img/djpg.jpg);
+	
+    
+
+}
+
+
+.social-container {
+    height: 10%;
+    margin-top:20px ;
+    padding-top: 3%;
+    padding-right: 25%;
+    padding-left: 25%;
+    border-top-style: dashed;
+    border-top-width:thin;
+    border-color: var(--color2);
+
+}
+
+.datos {
+    text-align: left;
+    font-size: 1.8rem;
+    padding-left:  15px ;
+}
+
+.social {
+        margin-left: 10px ;
+        margin-right: 10px;
+        color: var(--color2);
+    font-size: 3rem;
+    transition: 0s   color font-size;
+    text-decoration: none;
+
+}
+
+.social:hover {
+            color: blue;
+    font-size: 3.2rem;
+        margin-left: 10px ;
+        margin-right: 10px;
+    transition-duration:.30s;
+
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 90px auto;
+    background-image: url("../img/australian-cattle-dog.jpg");
+    background-position: center;
+    background-size: cover;
+    transition: 0s  width height;
+    opacity: 0.8;
+}
+.circle:hover {
+    width: 210px;
+    height: 210px;
+    transition-duration:.30s;
+    opacity: 1;
+
+    
+}
+
+
+.texdatos {
+height: 140px ;
+padding-top: 6%;
+color: var(--color3);
+text-align: center;
+}
+
+.button {
+    font-size: 2.5rem;
+    color: var(--color1);
+    float: right;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    background-color: var(--color2);
+    opacity: 0.8;
+
+    
+}
+.button:hover {
+    font-size: 3rem;
+    color: var(--color1);
+    float: right;
+    transition-duration:.50s;
+    height: 65px;
+    width: 65px;
+    background-color: var(--color2);
+    opacity: 1;
+	cursor: pointer;
+
+}
+
+.name {
+        
+        font-family: var(--f2);
+        font-size: 2.2rem;
+        font-style: italic;
+
+}
+
+.profecion {
+        font-family: var(--f1);
+        font-style: italic;
+
+}
+
+.back {
+ 
+     position: absolute;
+    z-index: 3;
+        background-image: url(../img/djpg.jpg);
+
+}
+
+.abilidad {
+    width: 25%;
+    height: 100%;
+    float: left;
+    position: relative;
+    }
+
+
+.bbottom {
+    height: 65%;
+
+}
+
+.barra {
+    background: #222;
+    height: 70%;
+    width: 95% ;
+    position: absolute;
+    bottom: 0;
+    margin-left: 2.5% ;
+}
+
+.tarjeta {
+    position: relative;
+}
+
+
+.ed {
+    margin-top: 30%;
+}
+
+.volteada {	
+	transition: all 5s ease-out;
+	overflow: hidden;
+
+    transform:translate(0vh,-200%);
+}
+.d
+{	
+	transition: all 11s ease;
+	overflow: hidden;
+    transform:translate(0vh,-100%);
+	opacity: .2;
+    
+    
+}
+
+.logomiddle {
+    height: 100%;
+}
+
+.middle {
+    background-image: url(../img/8.jpg);
+	opacity: .91;
+    position: absolute;
+    z-index: 4;
+
+}
+
+.lm {
+    height:60%;
+    z-index: 4;
+    position: relative;
+    top: 35%;
+    left:  24%;
+    
+
+
+}
+
+.fbacgkround {
+    width: 100%;
+    padding-right: 25%;
+}
+
+.twitt {
+margin: 4% ;}
+
+.buttonIco {
+    height: 100px;
+    width: 150px;
+  
+}
+
+.icot
+{	
+ animation:  e 5s  linear;
+
+    
+}
+.icor
+{	
+ animation:  we 5s  linear;
+
+    
+}
+@keyframes we { 
+   0%{
+    transform:rotate(0deg); }
+
+
+    35%{
+    transform:rotate(45deg);
+
+    }
+      50%{
+        height: 400px;
+        width: 500px;
+
+    }  
+    75%{
+    transform:rotate(-45deg);
+        height: 400px;
+        width: 500px;
+
+    }   
+    100%{ 
+    transform:rotate(0deg);
+
+    }
+}
+@keyframes e { 
+     0%{
+    transform:translate(0vh,0vh);
+
+    }
+    70%{
+    transform:translate(59vh,50vh);
+
+    }
+    100%{
+    transform:translate(0vh,0vh);
+
+    }
+    }
+.icono {
+    background-image: url(../img/info-04.png);
+    background-size: cover;
+    height: 75px;
+    width: 125px;
+
+}
+
+.iconoContainer {
+    z-index: 90;
+    position: absolute;
+left: 190px;
+top:-20px;
+    transform: scale(.8,.8);
+        
+    
+}
+
+.escale {
+    transition-duration: 5s;
+    transform: scale(1,1);
+}
+.transl {
+    transition-duration: 5s;
+    transform:  translate(20vh,20vh)
+}
+
+.widgetcon {
+
+    
+    transform:  translate(100vh,-100vh)
+}
+}
+
+.widget {
+    transform: scale(.0,.0);
+}
+
+
+.Text {
+	background-color: rgba(44,22,77,.6);
+	color: aliceblue;
+	padding:4%;
+	margin-left: 30px;
+	
+}
